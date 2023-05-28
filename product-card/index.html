@@ -10,33 +10,33 @@
     <!-- Global Container -->
     <div class="flex items-center justify-center min-h-screen bg-slate-100">
         <!-- Card container -->
-        <div class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow shadow-2xl md:flex-row md:space-y-0 md:space-x-10 md:m-0 md:p-16">
+        <div class="flex flex-col p-6 m-3 space-y-10 bg-white rounded-2xl shadow-2xl md:flex-row md:spce-y-0 md:space-x-10 md:m-0 md:p-6">
             <!-- Image product -->
             <div>
                 <img 
                 src="./images/product_01.jpg" 
                 alt="" 
-                class="mx-auto duration-200 w-72 hover:scale-105" 
+                class="mx-auto duration-200 w-60 hover:scale-105" 
                 />
             </div>
             <!-- product content -->
             <div class="flex flex-col space-y-6">
-                <!-- Label && Title Container -->
+                <!-- Label && Description Container -->
                 <div
-                    class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+                    class="flex flex-col mb-8 space-y-3 text-center md:text-left">
                 <!-- Label -->
-                    <div>
-                        <div 
-                            class="inline-block px-3 py-1 text-sm text-white bg-black rounded-full">
-                            Free Shipping <span class="font-bold text-yellow-500 ">15</span><span class="text-yellow-700"> Stores</span>
-                        </div>
+                <div>
+                    <div 
+                        class="inline-block px-3 py-1 text-sm text-white bg-black rounded-full">
+                        Free Shipping <span class="font-bold text-yellow-500 ">15</span><span class="text-yellow-700"> Stores</span>
                     </div>
+                </div>
                 <!-- Title -->
                 <div class="max-w-sm text-2xl font-medium">
                     Fujisu FJ-150 Capture The Memories For Everyone
                 </div>
                 <!-- Price Container -->
-                <div class="flex flex-col mb-4 space-y-3 text-center md:text-left">
+                <div class="flex flex-col mb-8 space-y-3 text-center md:text-left">
                     <p class="line-through">$799</p>
                     <p class="text-5xl font-bold">$599</p>
                     <p class="text-sm font-light text-gray-400">
@@ -46,8 +46,8 @@
                 <!-- Button Group -->
                 <div class="group">
                     <!-- Add to cart -->
-                    <button class="w-full transition-all duration-150 bg-blue-700 text-white border border-b-8 border-b-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg shadow">
-                        <div class="px-8 py-4 duration-150 bg-blue-500 rounded-lg group-hover:bg-blue-700">
+                    <button class="w-full transition-all duration-150 bg-blue-700 text-white border-b-8 border-b-blue-700 rounded-lg group-hover:border-t-8 group-hover:border-b-0 group-hover:bg-blue-700 group-hover:border-t-blue-700 group-hover:shadow-lg">
+                        <div class="px-8 duration-150 py-4 bg-blue-500 rounded-lg group-hover:bg-blue-700">
                             Buy now
                         </div>
                     </button>
@@ -63,12 +63,12 @@
                 <div class="flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
                     <!-- Add to cart button -->
                     <button class="flex items-center justify-center py-3 px-5 space-x-3 border border-2 border-gray-300 rounded-lg rounded shadow-sm shadow hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="M465-613v-123H341v-60h124v-123h60v123h123v60H525v123h-60ZM289.788-80Q260-80 239-101.212q-21-21.213-21-51Q218-182 239.212-203q21.213-21 51-21Q320-224 341-202.788q21 21.213 21 51Q362-122 340.788-101q-21.213 21-51 21Zm404 0Q664-80 643-101.212q-21-21.213-21-51Q622-182 643.212-203q21.213-21 51-21Q724-224 745-202.788q21 21.213 21 51Q766-122 744.788-101q-21.213 21-51 21ZM290-287q-42 0-61.5-34t.5-69l61-111-150-319H62v-60h116l170 364h292l156-280 52 28-153 277q-9.362 16.667-24.681 25.833Q655-456 634-456H334l-62 109h494v60H290Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M465-613v-123H341v-60h124v-123h60v123h123v60H525v123h-60ZM289.788-80Q260-80 239-101.212q-21-21.213-21-51Q218-182 239.212-203q21.213-21 51-21Q320-224 341-202.788q21 21.213 21 51Q362-122 340.788-101q-21.213 21-51 21Zm404 0Q664-80 643-101.212q-21-21.213-21-51Q622-182 643.212-203q21.213-21 51-21Q724-224 745-202.788q21 21.213 21 51Q766-122 744.788-101q-21.213 21-51 21ZM290-287q-42 0-61.5-34t.5-69l61-111-150-319H62v-60h116l170 364h292l156-280 52 28-153 277q-9.362 16.667-24.681 25.833Q655-456 634-456H334l-62 109h494v60H290Z"/></svg>
                         <span>Add to Cart</span>
                     </button>
                     <!-- Wishlist button -->
                     <button class="flex items-center justify-center py-3 px-5 space-x-3 border border-2 border-gray-300 rounded-lg rounded shadow-sm shadow hover:bg-opacity-30 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-150">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="m480-121-41-37q-105.768-97.121-174.884-167.561Q195-396 154-451.5T96.5-552Q80-597 80-643q0-90.155 60.5-150.577Q201-854 290-854q57 0 105.5 27t84.5 78q42-54 89-79.5T670-854q89 0 149.5 60.423Q880-733.155 880-643q0 46-16.5 91T806-451.5Q765-396 695.884-325.561 626.768-255.121 521-158l-41 37Zm0-79q101.236-92.995 166.618-159.498Q712-426 750.5-476t54-89.135q15.5-39.136 15.5-77.72Q820-709 778-751.5T670.225-794q-51.524 0-95.375 31.5Q531-731 504-674h-49q-26-56-69.85-88-43.851-32-95.375-32Q224-794 182-751.5t-42 108.816Q140-604 155.5-564.5t54 90Q248-424 314-358t166 158Zm0-297Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="m480-121-41-37q-105.768-97.121-174.884-167.561Q195-396 154-451.5T96.5-552Q80-597 80-643q0-90.155 60.5-150.577Q201-854 290-854q57 0 105.5 27t84.5 78q42-54 89-79.5T670-854q89 0 149.5 60.423Q880-733.155 880-643q0 46-16.5 91T806-451.5Q765-396 695.884-325.561 626.768-255.121 521-158l-41 37Zm0-79q101.236-92.995 166.618-159.498Q712-426 750.5-476t54-89.135q15.5-39.136 15.5-77.72Q820-709 778-751.5T670.225-794q-51.524 0-95.375 31.5Q531-731 504-674h-49q-26-56-69.85-88-43.851-32-95.375-32Q224-794 182-751.5t-42 108.816Q140-604 155.5-564.5t54 90Q248-424 314-358t166 158Zm0-297Z"/></svg>
                         <span>Add to wishlist</span>
                     </button>
                 </div>
