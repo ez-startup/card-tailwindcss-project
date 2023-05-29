@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery (EZ Startup) - Kuth Chi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <body>
+    <!-- Global Container  -->
+        <div class="flex items-center justify-center min-h-screen bg-cyan-50">
+            <!-- Card container -->
+            <div class="bg-white p-6 m-3 space-y-10 shadow-2xl  rounded-3xl  md:p-16">
+                <!-- Menu Container -->
+                <div 
+                    class="flex flex-col items-center justify-center space-y-3 md:flex-row md:space-y-0 md:space-x-8 md:mb-12 md:justify-end">
+
+                    <!-- Menu items -->
+                    <div class="group">
+                        <a href="#vector">Vector</a>
+                        <div 
+                            class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#illustrator">Illustration</a>
+                        <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#images">Images</a>
+                        <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        </div>
+                    </div>
+
+                    <div class="group">
+                        <a href="#">Icons</a>
+                        <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        </div>
+                    </div>
+                    <div class="group">
+                        <a href="#">Clip Art</a>
+                        <div class="mx-2 mt-2 duration-500 border-b-2 opacity-0 border-black group-hover:opacity-100">
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Search container -->
+                <div class="flex flex-col justify-between space-y-5 md:flex-row md:space-y-0">
+                    <!-- Input ans SVG Container -->
+                    <div class="flex justify-between border-b">
+                        <input 
+                            type="text" 
+                            class="ml-5 border-none md:w-80 placeholder:font-thin focus:outline-none" placeholder="Search" 
+                        />
+                        <button>
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                class="w-8 text-gray-300 duration-200 hover:scale-110"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                fill="none"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <circle cx="10" cy="10" r="7" /> 
+                                <line x1="21" y1="21" x2="15" y2="15" />
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- Upload button -->
+                    <button 
+                        class="py-3 px-14 text-lg font-normal text-white bg-black border border-black rounded-md shadow shadow-2xl duration-200 hover:bg-white hover:text-black">
+                        <div>Upload</div>
+                    </button>
+                </div>
+                <!-- Main sections for Vector and Illustration -->
+                
+                <!-- Two Columns Container -->
+                <div class="flex flex-col space-y-5 justify-between md:flex-row w-full">
+                    <!-- Image Container -->
+                    <div class="md:m-4 md:w-[50%]">
+                        <h2 id="#image" class="text-2xl my-3">Images</h2>
+                        <!-- Grid for Image -->
+                        <div class="grid grid-cols-5 gap-1">
+                            <img src="./media/images/01.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm col-span-2 row-span-2 hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500 ">
+                            <img src="./media/images/02.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/03.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/04.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/05.jpg" alt="" class="w-full object-cover rounded rounded-sm row-span-2 col-span-2 hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/06.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/07.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/08.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/09.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/10.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/11.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/12.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/13.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/images/14.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+
+                        </div>
+                    </div>
+
+                    <!-- Illustrator Container -->
+                    <div class="md:m-4 md:w-[50%]">
+                        <h2 id="#illustration" class="text-2xl my-3">Illustration</h2>
+                        <!-- Grid for Illustration -->
+                        <div class="grid grid-cols-5 gap-1">
+                            <img src="./media/illustrator/01.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/02.png" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/03.png" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/04.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/05.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/06.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/07.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/08.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/09.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/10.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/11.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/12.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/13.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/14.png" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/15.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/16.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/17.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/18.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/19.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+                            <img src="./media/illustrator/20.jpg" alt="" class="w-full aspect-square object-cover rounded rounded-sm hover:scale-105 border hover:border-gray-500 hover:border-3 hover:border-opacity-40 hover:rounded-lg transition duration-500"></img>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Gallery Container -->
+            </div>
+        </div>
+        <!-- Script to preview image -->
+    </body>
+</html>
